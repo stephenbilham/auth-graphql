@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./Header";
 
-const App = ({ children }) => {
+const App = (props) => {
 	return (
 		<div className="container">
 			<Header />
-			{children}
+			{props.children}
 		</div>
 	);
 };
