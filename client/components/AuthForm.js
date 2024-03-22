@@ -29,6 +29,7 @@ class AuthForm extends Component {
 							value={this.state.password}
 							onChange={(e) => this.setState({ password: e.target.value })}
 							placeholder="Password"
+							type="password"
 						/>
 					</div>
 
